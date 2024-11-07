@@ -15,9 +15,10 @@ def binary_search(arr, target):
     
     return -1 
 
-arr = [2, 3, 5, 7, 11, 13, 17, 19]
-target = 7
-
+#arr = [2, 3, 5, 7, 11, 13, 17, 19]
+#target = 7
+arr = ["Alice", "Bruna", "Carla"]
+target = "Carla"
 result = binary_search(arr, target)
 if result != -1:
     print(f"Elemento encontrado no índice: {result}")
